@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Number guessing game</title>
+</head>
+
+<body>
+  <h1>Jogo de adivinhação!</h1>
+
+  <p>Nós selecionamos um número de 0 a 100 e você deve acertar com 10 chances qual número é este! Para jogar, utilize das dicas de "maior ou menor" e conquiste sua vítoria.</p>
+
+  <div class="form">
+    <label for="guessField">Digite um número: </label>
+    <input type="number" min="1" max="100" required id="campoPalpite" class="campoPalpite">
+    <input type="submit" value="Enviar" class="envioPalpite">
+  </div>
+
+  <div class="resultParas">
+    <p class="palpites"></p>
+    <p class="ultimoResultado"></p>
+    <p class="baixoOuAlto"></p>
+  </div>
+  <footer>
+    <p>Feito por: <a href="https://github.com/lucabotini" target="_black" >Luca Botini</a></p>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
