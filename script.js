@@ -30,6 +30,7 @@ if(palpiteUsuario == numeroAleatorio){
 }else{
     ultimoResultado.textContent = "Errado!";
     ultimoResultado.style.backgroundColor = "red";
+    ultimoResultado.style.color = "white";
     if (palpiteUsuario < numeroAleatorio){
         baixoOuAlto.textContent = "Seu palpite está muito baixo!";
     }else if(palpiteUsuario > numeroAleatorio){
